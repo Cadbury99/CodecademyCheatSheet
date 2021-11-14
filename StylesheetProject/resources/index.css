@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Space Mono';
+    src: url(https://fonts.gstatic.com/s/spacemono/v6/i7dPIFZifjKcF5UAWdDRYEF8RQ.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url(https://fonts.gstatic.com/s/cormorantgaramond/v10/co3ZmX5slCNuHLi8bLeY9MK7whWMhyjYrEtImSo.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url(https://fonts.gstatic.com/s/sourcecodepro/v14/HI_XiYsKILxRpg3hIP6sJ7fM7Pqt4s_Ds-cq.woff2) format('woff2');
+}
+
+header {
+    background-image: url(../resources/imagecss/sparkles.jpg);
+    padding: 30px auto;
+    border: .2px solid white;
+    border-radius: 4px;
+}
+
+h1 { 
+    font-family: 'Source Code Pro', Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Cormorant Garamond', 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h1, h2 {
+    text-align: center;
+    color: crimson;
+    line-height: .5em;
+}
+
+nav {
+    font-family: 'Source Code Pro', Arial, Helvetica, sans-serif;
+    background-color: darkslategray;
+    width: 100%;
+    padding: 20px auto;
+    border: 1px solid white;
+    border-radius: 4px;
+    text-align: center;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 12px;
+    padding: 20px auto;
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: turquoise;
+}
+
+table {
+    width: 98%;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 20px auto;
+    color: #020505;
+    overflow: scroll;
+}
+
+thead {
+    background-color: teal;
+    height: 5em;
+    color: #020505;
+}
+
+.blank, .element, .required, .optional, .css {
+    width: 16%;
+    padding: 20px auto;
+}
+
+.example {
+    width: 20%;
+    padding: 20px auto;
+}
+
+tr:nth-child(even) {
+    background-color: paleturquoise;
+}
+
+th {
+    border: 2px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+td {
+    font-family: 'Space Mono', monospace;
+    font-size: 13px;
+    border: 2px solid black;
+}
+
+td li {
+    background-color: lightgray;
+    width: max-content;
+    margin-top: 1px;
+    margin-right: 10px;
+}
+
+td img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 300px;
+}
+
+th, td {
+    padding: 5px auto;
+}
+
+.lmnt {
+    list-style: none;
+}
+
+p {
+    font-family: 'Cormorant Garamond', 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #020505;
+}
+
+footer {
+    font-family:'Courier New', Courier, monospace;
+    color: darkslategrey;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+footer a {
+    color: darkslategray;
+}
+
+footer a:hover {
+    color: navy;
+}
